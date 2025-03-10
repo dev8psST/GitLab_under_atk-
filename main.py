@@ -1,5 +1,5 @@
 import pytest
-from add import add
+from add import *
 
 def test_add_1():
     assert add(5,6) == 11
@@ -12,3 +12,6 @@ def test_add_2():
 
 def test_add_3():
     assert add("Hello"," pytest") == "Hello pytest"
+
+def test_just_dev():
+    assert just_dev()  ==  "DEv branch"
