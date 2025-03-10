@@ -1,0 +1,35 @@
+git init
+
+git add . or file
+
+git remote set-url origin git@github.com:username/repository.git
+                              gitlab
+
+git rm --cached <file> // to unstage
+
+git branch
+
+git branch -D <name_branch> //delete
+
+git commit -m ""
+git push origin
+
+git log
+git status
+
+ssh -T  git@github.com
+            gitlab.com
+
+git remote set-url origin git@github.com:username/repository.git
+                              gitlab
+
+
+git config pull.rebase false  # merge if sync local branches
+
+
+git fetch origin // recieve info about changes in files
+git pull origin // download changes and applies to
+
+git push origin <branch name>
+
+git pull
