@@ -7,6 +7,7 @@ def pre_second(arg):
 
 def get_second(arg):
     return arg[1]
+    
 #new comment    
 def new_func(arg):
     return arg
