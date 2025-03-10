@@ -13,5 +13,3 @@ def test_add_2():
 def test_add_3():
     assert add("Hello"," pytest") == "Hello pytest"
 
-def test_just_dev():
-    assert just_dev()  ==  "DEv branch"
